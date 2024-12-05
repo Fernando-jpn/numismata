@@ -1,0 +1,41 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    padding: 3%;
+    background-color: steelblue;
+}
+
+header{
+    margin: 2%;
+    border: 10px groove rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    background-color: snow;
+}
+
+nav{
+    margin: 2%;
+    background-color: snow;
+    border: 4px groove rgba(0, 0, 0, 0.767);
+}
+
+.container{
+    display: flex;
+    border: 8px groove rgba(0, 0, 0, 0.767);
+    flex-direction: column;
+    background-color: snow;
+}
+
+.artigoI, .artigoII{
+    display: flexbox;
+    padding: 4%;
+}
+.artigoIII, .artigoIV{
+    display: flexbox;
+    padding: 4%;
+}
